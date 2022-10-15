@@ -1,0 +1,27 @@
+body{
+    background-color: #f5f6f9;
+    font-family: 'Rubik', sans-serif
+}
+/* .flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: DodgerBlue;
+    
+} */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.user-name{
+    color: #343a42;
+    font-weight: 600;
+}
+.comment{
+    margin: 10px;
+    padding: 25px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
