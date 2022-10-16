@@ -5,6 +5,7 @@ body{
 
 img{
     margin: 0px 15px 0px 50px;
+    padding-left: 25px;
 }
 .flex-container {
     display: flex;
@@ -22,21 +23,34 @@ img{
     background-color: #f5f6f9;
     color: #d5d4ed;
     font-size: 20px;
+    font-weight: 500;
     border: none;
     padding: 10px 15px 10px 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.minusBtn:hover{
+    background-color: lightblue; 
+    color: white;
+}
+.minusBtn:active{
+    background-color: #5d5f9e;
+    color: white
+}
 .plusBtn{
     background-color: #f5f6f9;
     color: #d5d4ed;
     font-size: 20px;
+    font-weight: 500;
     border: none;
     padding: 10px 15px 10px 15px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 } 
-
+.plusBtn:hover{
+    background-color: lightblue; 
+    color: white;
+}
 .score{
     text-align:center;
     background-color: #f5f6f9;
@@ -60,6 +74,7 @@ img{
 .text{
     color: gray;
     margin: 0px 0px 0px 75px;
+    padding-left: 25px;
 }
 .date-posted{
     color: gray;
