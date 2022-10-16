@@ -7,6 +7,48 @@ img{
     margin: 0px 15px 0px 50px;
     padding-left: 25px;
 }
+.reply-text-pic{
+    margin: 0px 15px 0px 5px;
+    padding-left: 5px;
+    height: 65px;
+}
+footer {
+    position: sticky;
+    bottom: 0px;
+    margin: 40px;
+}
+input {
+    flex: 5;
+    font-size: 17px;
+    border: solid lightgray 1px;
+    border-radius: 10px;
+}
+.leave-comment {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 200px;
+    padding: 25px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    width: 800px;
+    float: right;
+}
+.sendBtn {
+    background-color: #5358b6;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px 25px 5px 25px;
+    border: none;
+}
+.sendBtn:hover{
+    background-color: #2a2e69;
+}
+.sendBtn:active{
+    background-color: #060b4b;
+}
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -97,7 +139,7 @@ img{
 }
 .reply-at-username{
     color: #5d5f9e;
-    font-weight: 400;
+    font-weight: 500;
 }
 .replyBtn {
     margin-left: auto;
