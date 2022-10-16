@@ -19,7 +19,7 @@ img{
     flex-direction: column;
     position: absolute;
     float: left;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .minusBtn{
     background-color: #f5f6f9;
@@ -27,7 +27,7 @@ img{
     font-size: 20px;
     font-weight: 500;
     border: none;
-    padding: 10px 15px 10px 15px;
+    padding: 7px 15px 7px 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -45,7 +45,7 @@ img{
     font-size: 20px;
     font-weight: 500;
     border: none;
-    padding: 10px 15px 10px 15px;
+    padding: 7px 15px 7px 15px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 } 
@@ -53,11 +53,16 @@ img{
     background-color: lightblue; 
     color: white;
 }
+.plusBtn:active{
+    background-color: #5d5f9e;
+    color: white
+}
 .score{
     text-align:center;
     background-color: #f5f6f9;
     color: #5d5f9e;
     font-weight: 500;
+    padding: 7px 0px 7px 0px;
 }
 
 .user-name{
@@ -90,6 +95,10 @@ img{
     width: 700px;
     float: right;
 }
+.reply-at-username{
+    color: #5d5f9e;
+    font-weight: 400;
+}
 .replyBtn {
     margin-left: auto;
     color: #5d5f9e;
@@ -103,11 +112,13 @@ img{
     border-radius: 10px;
 }
 .replyBtn:hover {
-    background-color: lightblue; 
+    background-color: rgb(185, 220, 231); 
     color: white;
-    
 }
-  
+ .replyBtn:active {
+    background-color: rgb(108, 189, 216);
+    color: white;
+ } 
 .editBtn{
     margin-left: auto;
     color: #5d5f9e;
@@ -122,7 +133,11 @@ img{
 
 }
 .editBtn:hover {
-    background-color: lightblue; 
+    background-color: rgb(185, 220, 231); 
+    color: white;
+}
+.editBtn:active{
+    background-color: rgb(108, 189, 216);
     color: white;
 }
 .dltBtn{
@@ -138,6 +153,10 @@ img{
     border-radius: 10px;
 }
 .dltBtn:hover{
-    background-color: rgb(255, 147, 147);
+    background-color: rgb(255, 181, 181);
+    color: white;
+}
+.dltBtn:active{
+    background-color: rgb(255, 108, 108);
     color: white;
 }
