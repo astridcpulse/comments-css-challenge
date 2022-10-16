@@ -10,14 +10,16 @@ img{
 .flex-container {
     display: flex;
     flex-direction: row;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px 20px 10px;
     font-size: 18px;
+    align-items: center; 
 }
 .voting-flex{
     display: flex;
     flex-direction: column;
     position: absolute;
     float: left;
+    margin-top: 50px;
 }
 .minusBtn{
     background-color: #f5f6f9;
@@ -61,7 +63,7 @@ img{
 .user-name{
     color: #343a42;
     font-weight: 600;
-    margin: 20px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
 }
 .comment{
     margin: 10px;
@@ -78,7 +80,7 @@ img{
 }
 .date-posted{
     color: gray;
-    margin: 20px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
 }
 .reply{
     margin: 10px 10px 10px 200px;
@@ -96,12 +98,14 @@ img{
     font-weight: 500;
     background-color: white;
     border: none;
-    
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
 }
 .replyBtn:hover {
     background-color: lightblue; 
     color: white;
-    border-radius: 10px;
+    
 }
   
 .editBtn{
@@ -112,6 +116,14 @@ img{
     font-weight: 500;
     background-color: white;
     border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+
+}
+.editBtn:hover {
+    background-color: lightblue; 
+    color: white;
 }
 .dltBtn{
     margin-left: auto;
@@ -121,4 +133,11 @@ img{
     font-weight: 500;
     background-color: white;
     border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+}
+.dltBtn:hover{
+    background-color: rgb(255, 147, 147);
+    color: white;
 }
