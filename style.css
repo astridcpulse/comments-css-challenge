@@ -2,26 +2,68 @@ body{
     background-color: #f5f6f9;
     font-family: 'Rubik', sans-serif
 }
-/* .flex-container {
-    display: flex;
-    flex-direction: row;
-    background-color: DodgerBlue;
-    
-} */
+
+img{
+    margin: 0px 15px 0px 50px;
+}
 .flex-container {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    
     padding: 20px;
-    font-size: 30px;
+    font-size: 18px;
 }
+.score{
+    margin: 0px 10px 0px 10px;
+    position: absolute;
+    float: left;
+}
+
 .user-name{
     color: #343a42;
     font-weight: 600;
+    
+    margin: 0px 10px 0px 10px;
 }
 .comment{
     margin: 10px;
     padding: 25px;
+    width: 800px;
     border-radius: 16px;
     background-color: #ffffff;
+    float: right;
+}
+.text{
+    color: gray;
+    margin: 0px 0px 0px 75px;
+}
+.date-posted{
+    color: gray;
+    margin: 0px 10px 0px 10px;
+}
+.reply{
+    margin: 10px 10px 10px 200px;
+    padding: 25px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    width: 700px;
+    float: right;
+}
+.replyBtn {
+    margin-left: auto;
+    color: #5d5f9e;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+}
+.editBtn{
+    margin-left: auto;
+    color: #5d5f9e;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
 }
