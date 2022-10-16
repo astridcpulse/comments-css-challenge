@@ -12,10 +12,36 @@ img{
     padding: 0px 20px 20px 20px;
     font-size: 18px;
 }
-.score{
-    margin: 0px 10px 0px 10px;
+.voting-flex{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     float: left;
+}
+.minusBtn{
+    background-color: #f5f6f9;
+    color: #d5d4ed;
+    font-size: 20px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.plusBtn{
+    background-color: #f5f6f9;
+    color: #d5d4ed;
+    font-size: 20px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} 
+
+.score{
+    text-align:center;
+    background-color: #f5f6f9;
+    color: #5d5f9e;
+    font-weight: 500;
 }
 
 .user-name{
