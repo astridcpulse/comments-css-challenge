@@ -1,6 +1,7 @@
 body{
     background-color: #f5f6f9;
-    font-family: 'Rubik', sans-serif
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 500px;
 }
 
 img{
@@ -13,7 +14,7 @@ img{
     height: 65px;
 }
 footer {
-    position: sticky;
+    position: fixed;
     bottom: 0px;
     margin: 40px;
 }
@@ -22,6 +23,9 @@ input {
     font-size: 17px;
     border: solid lightgray 1px;
     border-radius: 10px;
+}
+button{
+    cursor: pointer;
 }
 .leave-comment {
     display: flex;
